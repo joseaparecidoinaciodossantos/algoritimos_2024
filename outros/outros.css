@@ -1,0 +1,13 @@
+.localização iframe{
+
+}
+.galeria-items{
+    width: 300px;/*largura*/
+    height: 250px;/*altura*/
+}
+
+.gallery-items img{
+    width: 100%;/*largura*/
+    height: 100%;/*altura*/
+    object-fit: cover;/*deve ser dimensionado e posicionamento dentro de seu container, mantendo sua proporção original e cobrindo todo o espaço disponível ,sem distorções.*/
+}

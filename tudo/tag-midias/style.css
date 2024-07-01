@@ -1,0 +1,23 @@
+body{
+    background-color: dodgerblue;/* cor de fundo*/
+color : blue ;/*cor da fonte*/
+
+}
+h1{
+text-align: center;/*a linha no centro o titulo (texto)*/
+color: rgb(14, 97, 97);/* cor da fonte*/
+border: 15px solid azure;/*1º valor espessura 2° tipo da linha 3 cor*/
+
+background-color:azure ;/*cor de fundo*/
+
+
+
+}
+
+img{
+width: 50%;/* largura em porcentagem */
+border-radius: 50px /*raio das bordas utilizadas para arredondar*/
+
+
+
+}

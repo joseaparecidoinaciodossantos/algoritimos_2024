@@ -1,0 +1,17 @@
+
+    /*pseudo classe hover- >quando passar o mouse por cima
+    do elemento para acionar troca de cor ou tamanho do elemento*/
+.minhadiv{
+    width: 500px;
+height: 500px;
+background-color: gray;
+transition: 2s;
+}
+
+.minhadiv:hover{
+    width: 1000px;
+height: 500px;
+background-color: aqua;
+
+
+}

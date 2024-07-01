@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.cabecalho-imagem {
+width: 20%;/*largura da imagem*/
+
+}
+.cabecalho{
+background-color: #383d58;
+display: flex;/*coloca os elementos lado ao lado*/
+display: flex;/*espacamento entre os elementos e nos lados externos*/
+justify-content: space-around;/*espacamento entre os elementos e nos lados a externos*/
+align-items: center;/*colocando os itens ao centro (verticalmente) */
+padding: 24px 0;
+
+}
+.cabecalho-lista-item{
+display: inline-block;/*colocando em linha os elementos*/
+margin: 0 16px;/*0 superior e 16px direita e esquerda*/
+color: #ffffff;/*cor do texto*/
+
+}
+a{
+color: white;
+text-decoration: none;
+transition: 1s;/*quando passar o mouse ira mudar a cor*/
+}
+
+a:hover{
+color: burlywood;
+
+
+}
+/*------------secao escola------------*/
+.escola-imagem{
+width: 25%;
+
+}
+.escola{
+background-image: linear-gradient(#383d58, #4ebfe9 );
+color :white;/*coloca os elementos lado a lado*/
+display: flex;
+justify-content: center;/*centralizando os elementos dentro .escola indo para o centro da pagina*/
+align-items: center;/*alinha ao centro da caixa superior e inferior*/
+padding: 24px 0;/*superior e inferior direita e esquerda*/
+
+}
+.escola-div-conteudo{
+    width:35% ;
+
+}
+
+.escola-titulo{
+padding: 24px 0;/*superior e inferior e direita e esquerda*/
+
+
+
+}
+/*secao estudante imagem*/
+.estudante-imagem{
+
+width: 150px;
+height: 245px;
+
+}
+.estudante-icone{
+width: 24px;
+
+
+
+}
+.estudante-titulo{
+text-align: center;
+padding: 50px 0;/*superior inferior direita e esquerda*/;
+
+
+
+
+}
+
+/*alinhar as divs*/
+.estudante-div{
+text-align: center;
+margin-top: 20px;
+
+
+
+}
+.estudante-todos{
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%; /*cria 5 colunas com espaços entre elas*/
+
+
+
+}
+.estudante-icone{
+padding: 8px;
+
+
+}

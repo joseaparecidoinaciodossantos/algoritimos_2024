@@ -1,0 +1,44 @@
+*{
+color: #ffffff;
+
+
+
+
+}
+/*todas as paginas com h1*/
+h1{
+text-align: center;/*alinha o texto no centro*/
+font-size: 20px;/*tamanho da fonte do texto*/
+margin-top: 30px;/*espacamento externo*/
+
+
+}
+/*estilizando a pagina localizacao*/
+.localizacao{
+width: 100%;/*largura*/
+display: flex;/*abri o flex para utilizar as propriedades dele*/
+flex-direction: column;/*deixando os elementos filhos em coluna*/
+align-items: center;/*deixando os elementos centralizado (verticalmente)*/
+justify-content: center;/*deixando os elementos centralizado (horizontalmente)*/
+
+
+
+
+}
+
+.localizacao iframe {
+border-radius: 15px;
+margin-top: 30px;
+
+}
+
+/*-----responsividade-------*/
+
+@media(max-width: 768px) {
+
+.localizacao iframe {
+    width: 95%;
+}
+
+
+}

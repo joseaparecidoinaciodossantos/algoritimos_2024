@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feliz dia dos namorados</title>
+
+    <style>
+.painel{
+width: 500px;
+height:500px ;
+margin: auto;
+text-align: center;
+background-color: white;
+box-shadow: 2px 2px 2px black;
+border-radius: 20px;
+margin-top: 20px;
+
+padding: 10px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+body{
+
+
+background-color: rgb(217, 100, 100);
+}
+
+#sim, #nao{
+height: 40px;
+width: 60px;
+background-color: blueviolet;
+color: white;
+border: none;
+border-radius: 10px;
+margin-left: -60px;
+
+
+}
+
+#sim:hover, #nao:hover{
+background-color: aqua;
+transition: 1s;
+
+
+
+
+}
+
+
+
+
+
+#nao{
+
+position: absolute;
+margin-left: 10px;
+
+}
+
+
+    </style>
+
+
+</head>
+<body>
+    <div>
+<div class="painel">
+    <h1>feliz dia dos namorados!</h1>
+<h2>voce e o css do meu html</h2>
+<img width="200" src="https://media.tenor.com/0-M-_QQY4eQAAAAj/pixel-heart.gif">
+
+<h2>voce quer sair para jantar?</h2>
+
+
+<a href="https://youtu.be/_v91rspSeNE?si=7B82Ato1D0Fl4Dee"><button id="sim">sim! </button> </a>
+<button id="nao" onclick="fugir()" onmouseover="fugir()">não!</button>
+
+
+    </div>
+
+
+    <script>
+
+function  fugir() {
+    let botaoNao = document.getElementById("nao");
+
+//pegar largura e altura da tela
+    let larguraJanela = window.innerWidth;
+    let alturaJanela =  window.innerHeight;
+
+//no tamanho da tela; desconsiderar o tamanho do botao
+    let maxX = larguraJanela - botaoNao.offsetWidth;
+    let maxY = alturaJanela - botaoNao.offsetHeight;
+
+//sortear a posicao aleatoria
+    let aleatorioX = Math.floor(Math.random() * maxX);
+
+    let aleatorioY = Math.floor(Math.random() * maxY);
+
+// manipular posicao dos botoes no html
+
+    botaoNao.style.left = aleatorioX + "px";
+    botaoNao.style.top = aleatorioY + "px";
+    
+}
+
+
+    
+ </script>
+    
+    
+</body>
+</html>

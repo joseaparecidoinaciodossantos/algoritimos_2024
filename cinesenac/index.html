@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cinema Cinesenac - Batman</title>
+  </head>
+  <body>
+    <!--1° Cabeçalho------------------>
+    <header>
+      <!--adicionando uma imagem-->
+      <!--nome da tag img é id="logo"-->
+      <img id="logo" src="./img/fundos-do-batman.jpg" alt="Logo Batman" />
+      <!--Criando nossa barra de navegação com as tags nav e lista com ule li-->
+      <nav>
+        <!--Criando nossa lista com os links das páginas-->
+        <ul>
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <!--Link 2-->
+          <a href="./contato.html">
+            <li>Contato</li>
+          </a>
+          <!--Link 3-->
+          <a href="./fotos.html">
+            <li>Fotos</li>
+          </a>
+          <!--Link 4-->
+          <a href="./localizacao.html">
+            <li>Localização</li>
+          </a>
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--Cabeçalho Finalizado-->
+
+    <!--Iniciando Banner-->
+<div id="banner"></div>
+
+ <!--Parte Trailer-->
+ <div id="trailer-container">
+
+<div class="content">
+<video controls class="trailer" >
+<source src="./video/The Batman - DC FanDome Teaser.mp4" type="video/mp4">
+Seu navegador não possui suporte para videos.
+</video>
+
+<!--Div descrição do Trailer-->
+<div id="sinopse">
+  <p class="description">
+    Após dois anos espreitando as ruas como batman, Bruce Wayne se encontra 
+    nas profundezas mais sombrias de Gotham City. Com aliados confiáveis, o vigilante solitário se 
+    estabelece como a personificação da vingança para a população.
+  </p>
+
+  <!--Botão ir para Página para comprar ingresso-->
+<button class="button">Comprar Ingresso</button>
+</div>
+</div>
+ </div>
+
+<!--Parte do trailer finalizado-->
+
+<!--Parte cards dos atores-->
+<!--DIV principal que engloba todos os card-->
+<div class="actor-cards-container">
+<div class="cards-content">
+<!--Duas classes card ->responsável para estilizar os cards-->
+
+<div class="card banner-1 "> <span class="texto">Robert Pattison - Batman</span></div>
+<div class="card banner-2 "> <span class="texto"> Zoe Kravitz - Mulher Gato</span></div>
+<div class="card banner-3 "> <span class="texto"> Jeffrey Wright - Gordon</span></div>
+
+</div>
+</div>
+<!--Footer -> Rodapé -> Colocamos (a logo nossa imagem),
+(textos todos os direitos reservados), (por quem foi desenvolvidos essa página)
+(vamos ter uma navegação quando usar celular)-->
+
+<footer>
+  <!--Seja redimensionada para caber completamnete dentro contêiner,mantendo sua proporção original.
+  style="object-fit: contain:"-->
+<img id="logo" style="object-fit: contain;" src="./img/fundos-do-batman.jpg" alt="Logo Batman">
+<span class="footer-texto">Todos os direitos reservados © 2024</span>
+<span class="footer-texto">Desenvolvido por: Lilia Ribeiro</span>
+</footer>
+
+</body>
+</html>

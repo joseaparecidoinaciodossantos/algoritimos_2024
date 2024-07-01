@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+#foto {
+    background-color: azure;
+
+justify-content: space-around;
+
+}
+.barra-navegacao{
+display: flex;
+justify-content: space-evenly;
+background-color: blanchedalmond;
+padding: 10px                                                                                                                                                                                                                      ;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>midias</title>
+</head>
+<body>
+<!--esta tag adiciona uma imagem-->
+<img src="./img/download.jfif" alt="foto-camaro amarelo" width="70%">
+
+<h1>vídeo clip do tiago brado minha essência</h1>
+<!--esta tag cria um player de vídeo com diversos controles-->
+
+<video controls width="500" height="380" id="video">    
+<source src="./midias/tiago-brado.mp4" type="video/mp4">
+</video>
+<br>
+
+
+
+<!--Esta tag cria um player de audio-->
+<audio controls id="play">
+    <source src="./midias/Foi por Voc.mp3" type="audio/mpeg">
+</audio>
+<br>
+<button onclick="document.getElementById('play').play()">play</button>
+<button onclick="document.getElementById('play').pause()">pause</button>
+
+<h1>aqui eo player do video</h1>
+
+<button onclick="document.getElementById('video').play()">play</button>
+<button onclick="document.getElementById('video').pause()">pause</button>
+
+
+
+
+
+
+<br>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGAawlH-RGY?si=7rafbT8JrAEiMlS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+
+</html>

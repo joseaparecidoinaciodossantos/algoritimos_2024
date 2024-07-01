@@ -1,0 +1,69 @@
+*{
+    color: #ffffff;
+}
+
+/*Todas as páginas com h1*/
+h1{
+text-align: center;/*Alinha o texto no centro*/
+font-size: 20px;/*Tamanho da fonte do texto*/
+margin-top: 30px;/*Espaçamento externo*/
+}
+
+/*Estilizando Página Localização*/
+.localizacao {
+    width: 100%;/*Largura*/
+    display: flex;/*Abri o flex para utilizar as propriedades dele*/
+    flex-direction: column;/*Deixando os elementos filhos em coluna*/
+    align-items: center;/*Deixando os elementos centralizados (verticalmente)*/
+    justify-content: center;/*Deixando os elementos centralizados (horizontalmente)*/
+}
+
+.localizacao iframe {
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+/*Galeria de Fotos*/
+.galeria-container {
+    display: flex;/*alinhando lado a lado*/
+    flex-wrap: wrap;/*Se os itens não couberem mais em uma linha, eles irão quebrar para a próxima linha, 
+    mantendo o layout flexivel*/
+    justify-content: space-evenly;/*Para distribuir o espaço restante entre os itens flexíveis de maneira
+    uniforme, incluindo espaços iquais tanto entre os itens quanto nas extremidadesdo contêiner.*/
+    gap: 2vw;/*Da espaçamento entre as linhas e colunas das imagens*/
+    margin-top: 30px;
+}
+
+.galeria-items {
+    width: 300px;/*Largura*/
+    height: 250px;/*Altura*/
+    border: 10px solid #ffffff;
+    flex-grow: 1;/*o que isso faz é que todos os itens se espandem igualmente para preencher o espaço disponível no container flexivel.
+    se houver espaço extra.
+    todos os itens irão crescer proporcionalmente ,garantindo que o espaço seja preechido */
+    transition: 1s;
+}
+
+.galeria-items img {
+    width: 100%;/*Largura*/
+    height: 100%;/*Altura*/
+    object-fit: cover;/*Deve ser dimensionado e posicionado dentro do contêiner, mantendo sua proporção original
+    e cobrindo todo o espaço disponível, sem distorções.*/
+}
+.galeria-items:hover{
+    transform: scale(1.2);/*ao passar mouse a imagem se torna maior*/
+    border-color: red;
+    border-radius: 10px;
+}
+
+
+/*contato -------*/
+
+.contato {
+    margin-bottom: ;
+
+
+
+
+
+}

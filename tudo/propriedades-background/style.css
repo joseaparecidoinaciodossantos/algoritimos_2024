@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+width: 100vh;/*largura*/
+height: 300vh;/*altura*/
+
+
+
+}
+
+.minhadiv{
+width:  1900px;
+height: 600px;
+/*background-color: red;*/
+
+
+/*colocando uma imagem com background-image: url()*/
+background-image: url("./img/the-batman-2022-teaser-poster-batman-01-promo.webp");
+/*para a imagem não repetir*/
+background-repeat: no-repeat;
+/*popriedade faz a imagem ficar no tamanho total da caixa(div)*/
+background-size: cover;
+/*1°posicionamento orizontal 2° valor vertical  */
+background-position-x: 50% 0%;
+/*imagem fica no tamanho original*/
+
+background-size: auto;
+/*fica dentro da caixa(div) sem perder a qualidade na*/
+background-size: contain;
+
+
+
+}

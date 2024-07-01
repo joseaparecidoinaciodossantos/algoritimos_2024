@@ -1,0 +1,109 @@
+.quadrado{
+width: 200px;/*largura*/
+height: 200px;/*altura*/
+font-size: 150px;/*tamanho de fonte*/
+background-color: aquamarine;
+color: white;/*cor da letra*/
+border-radius: 15px;/*arredondar bordas*/
+
+}
+
+.painel{
+width: 1000px;/*largura da div*/
+border: 1px solid black;/*borda*/
+margin: auto;/*centraliza a div*/
+text-align: center; /*centralizar conteudo*/
+padding: 40px;/*espacamento interno*/
+border-radius: 15px;
+background-color: rgba(0, 0, 0, 0.171);
+display: flex;
+
+}
+
+.jogo{
+
+margin: auto;
+
+
+
+
+}
+button{
+
+    background-color: rgb(0, 0, 0);/*cor do botao*/
+    color: white;/*cor da letra*/
+    border: none;/*desativar borda*/
+    padding: 10px;/*espacamento interno*/
+    margin: 20px;/*margem de cima*/
+    border-radius: 10px;/*arredondar botao*/
+}
+
+/*quando passar o moouse no botao aplica efeito*/
+
+button:hover{
+
+    background-color: orangered;/*cor de fundo*/
+    transition: 2s;/*tempo de transicao*/
+
+}
+
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5LoQAUVAdzlbsKpABJ8j3fpacoKdXS0NM6g&s);
+background-size: cover;
+}
+
+#q1{
+    background-color: blue;
+}
+#q2{
+    background-color: blueviolet;
+}
+#q3{
+    background-color: black;
+}
+#q4{
+  
+    background-color: bisque;
+
+}
+#q5{
+    background-color: brown;
+}
+#q6{
+    background-color: aliceblue;
+}
+#q7{
+    background-color: aqua
+    ;
+}
+#q8{
+    background-color: burlywood
+    ;
+}
+#q9{
+    background-color: green;
+}
+
+#jogadores{
+font-size: 25px;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px 4px black;
+
+
+
+}
+.direita{
+margin: auto ;
+margin-top: 0;
+
+
+
+}
+#nome{
+height: 30px;
+border-radius: 5px;
+border: none;
+text-align: center;
+
+}

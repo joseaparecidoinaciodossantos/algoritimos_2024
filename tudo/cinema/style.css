@@ -1,0 +1,58 @@
+*{
+/*aqui e um link externo no google fontes*/
+
+@import url (https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap) 
+
+
+margin: 0;/*ESPACAMENTO EXTERNO*/
+padding: 0;/*ESPACAMENTO INTERNO*/
+list-style: none;/*TIRA A O ESTILO DA LISTA POR PADRAO (AS BOLINHAS)*/ 
+text-decoration: none;/*REMOVE QUALQUER DECORACAO DO TEXTO(LINK) REMOVE UMA LINHA EMBAIXO DO TEXTO*/
+font-family: "Kdam Thmor Pro", sans-serif;/*fonte dos textos da pagina (@import)*/
+
+}
+body{
+background-color: black;/*COR DE FUNDO DA PAGINA*/
+
+}
+#logo {
+    width: 150px;
+    height: auto;
+
+    border-radius: 15px;
+}
+
+header{
+    height: 90px;
+    display: flex;/*coloca a imagem e os elementos filhos lado a lado,ou seja ,serao organizados em um linha horizontal*/
+    background-color: aquamarine;
+    justify-content: space-around;/*distribui os itens em espacos igual entre eles e ao redor decada item*/
+   align-items: center;/*alinha os itens verticalmente ao centro do container*/ 
+}
+
+nav{
+width: 60%;/*tamanho da area de navegacao*/
+}
+
+ul{
+
+    display: flex;
+    width: 100%;/*ocupa todo o espaco disponivel na area de navegacao*/
+    justify-content: space-between;/*espacamento entre os itens*/
+}
+li{
+color: blue ;
+/*cor do texto dos itens da lista*/
+font-size: 19px;/*tamanho do texto dos itens*/
+cursor: pointer;/*cria um cursor ao passar mouse*/
+
+
+}
+li:hover {
+    color: #d21617 ;/*muda a cor do texto passando com o mouse*/
+
+}
+
+
+
+
